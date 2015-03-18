@@ -10,8 +10,8 @@
 		453721751AAFE62300000044 /* MovieCatalog.m in Sources */ = {isa = PBXBuildFile; fileRef = 453721741AAFE62300000044 /* MovieCatalog.m */; };
 		45940A521AAFB35000AF44F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940A511AAFB35000AF44F2 /* main.m */; };
 		45940A551AAFB35000AF44F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940A541AAFB35000AF44F2 /* AppDelegate.m */; };
-		45940A581AAFB35000AF44F2 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940A571AAFB35000AF44F2 /* MasterViewController.m */; };
-		45940A5B1AAFB35000AF44F2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940A5A1AAFB35000AF44F2 /* DetailViewController.m */; };
+		45940A581AAFB35000AF44F2 /* MovieCatalogViewController.h.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940A571AAFB35000AF44F2 /* MovieCatalogViewController.h.m */; };
+		45940A5B1AAFB35000AF44F2 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940A5A1AAFB35000AF44F2 /* MovieDetailViewController.m */; };
 		45940A5E1AAFB35000AF44F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45940A5C1AAFB35000AF44F2 /* Main.storyboard */; };
 		45940A601AAFB35000AF44F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45940A5F1AAFB35000AF44F2 /* Images.xcassets */; };
 		45940A631AAFB35000AF44F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45940A611AAFB35000AF44F2 /* LaunchScreen.xib */; };
@@ -33,10 +33,9 @@
 		45940AAC1AAFB37500AF44F2 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940A991AAFB37500AF44F2 /* UIProgressView+AFNetworking.m */; };
 		45940AAD1AAFB37500AF44F2 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940A9B1AAFB37500AF44F2 /* UIRefreshControl+AFNetworking.m */; };
 		45940AAE1AAFB37500AF44F2 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940A9D1AAFB37500AF44F2 /* UIWebView+AFNetworking.m */; };
-		45940AB31AAFB38500AF44F2 /* ILMovieDBClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940AB01AAFB38500AF44F2 /* ILMovieDBClient.m */; };
+		45940AB31AAFB38500AF44F2 /* MovieDBClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940AB01AAFB38500AF44F2 /* MovieDBClient.m */; };
 		45940AB41AAFB38500AF44F2 /* ILMovieDBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940AB21AAFB38500AF44F2 /* ILMovieDBConstants.m */; };
 		45940AEB1AAFDDEB00AF44F2 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 45940AEA1AAFDDEB00AF44F2 /* Movie.m */; };
-		45945A1A1AB039650081D0D4 /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 45945A191AB039650081D0D4 /* ImageLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +56,10 @@
 		45940A511AAFB35000AF44F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		45940A531AAFB35000AF44F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		45940A541AAFB35000AF44F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		45940A561AAFB35000AF44F2 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		45940A571AAFB35000AF44F2 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		45940A591AAFB35000AF44F2 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		45940A5A1AAFB35000AF44F2 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		45940A561AAFB35000AF44F2 /* MovieCatalogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCatalogViewController.h; sourceTree = "<group>"; };
+		45940A571AAFB35000AF44F2 /* MovieCatalogViewController.h.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCatalogViewController.h.m; sourceTree = "<group>"; };
+		45940A591AAFB35000AF44F2 /* MovieDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
+		45940A5A1AAFB35000AF44F2 /* MovieDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
 		45940A5D1AAFB35000AF44F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45940A5F1AAFB35000AF44F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		45940A621AAFB35000AF44F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -103,14 +102,12 @@
 		45940A9B1AAFB37500AF44F2 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		45940A9C1AAFB37500AF44F2 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		45940A9D1AAFB37500AF44F2 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		45940AAF1AAFB38500AF44F2 /* ILMovieDBClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILMovieDBClient.h; path = "UIKit+AFNetworking/ILMovieDBClient.h"; sourceTree = "<group>"; };
-		45940AB01AAFB38500AF44F2 /* ILMovieDBClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILMovieDBClient.m; path = "UIKit+AFNetworking/ILMovieDBClient.m"; sourceTree = "<group>"; };
+		45940AAF1AAFB38500AF44F2 /* MovieDBClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovieDBClient.h; path = "UIKit+AFNetworking/MovieDBClient.h"; sourceTree = "<group>"; };
+		45940AB01AAFB38500AF44F2 /* MovieDBClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovieDBClient.m; path = "UIKit+AFNetworking/MovieDBClient.m"; sourceTree = "<group>"; };
 		45940AB11AAFB38500AF44F2 /* ILMovieDBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ILMovieDBConstants.h; path = "UIKit+AFNetworking/ILMovieDBConstants.h"; sourceTree = "<group>"; };
 		45940AB21AAFB38500AF44F2 /* ILMovieDBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ILMovieDBConstants.m; path = "UIKit+AFNetworking/ILMovieDBConstants.m"; sourceTree = "<group>"; };
 		45940AE91AAFDDEB00AF44F2 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
 		45940AEA1AAFDDEB00AF44F2 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
-		45945A181AB039650081D0D4 /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
-		45945A191AB039650081D0D4 /* ImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,23 +149,12 @@
 		45940A4E1AAFB35000AF44F2 /* TMDBTask */ = {
 			isa = PBXGroup;
 			children = (
+				45965EB71AB9CD4600AC7D15 /* Client */,
+				45965EB61AB9CD1A00AC7D15 /* Lib */,
+				45965EB51AB9CCEA00AC7D15 /* ViewControllers */,
 				45940AE81AAFDDD400AF44F2 /* Model */,
-				45940A781AAFB37500AF44F2 /* AFNetworking */,
-				45940A8C1AAFB37500AF44F2 /* UIKit+AFNetworking */,
-				45945A181AB039650081D0D4 /* ImageLoader.h */,
-				45945A191AB039650081D0D4 /* ImageLoader.m */,
-				453721731AAFE62300000044 /* MovieCatalog.h */,
-				453721741AAFE62300000044 /* MovieCatalog.m */,
-				45940AAF1AAFB38500AF44F2 /* ILMovieDBClient.h */,
-				45940AB01AAFB38500AF44F2 /* ILMovieDBClient.m */,
-				45940AB11AAFB38500AF44F2 /* ILMovieDBConstants.h */,
-				45940AB21AAFB38500AF44F2 /* ILMovieDBConstants.m */,
 				45940A531AAFB35000AF44F2 /* AppDelegate.h */,
 				45940A541AAFB35000AF44F2 /* AppDelegate.m */,
-				45940A561AAFB35000AF44F2 /* MasterViewController.h */,
-				45940A571AAFB35000AF44F2 /* MasterViewController.m */,
-				45940A591AAFB35000AF44F2 /* DetailViewController.h */,
-				45940A5A1AAFB35000AF44F2 /* DetailViewController.m */,
 				45940A5C1AAFB35000AF44F2 /* Main.storyboard */,
 				45940A5F1AAFB35000AF44F2 /* Images.xcassets */,
 				45940A611AAFB35000AF44F2 /* LaunchScreen.xib */,
@@ -258,8 +244,41 @@
 			children = (
 				45940AE91AAFDDEB00AF44F2 /* Movie.h */,
 				45940AEA1AAFDDEB00AF44F2 /* Movie.m */,
+				453721731AAFE62300000044 /* MovieCatalog.h */,
+				453721741AAFE62300000044 /* MovieCatalog.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		45965EB51AB9CCEA00AC7D15 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				45940A561AAFB35000AF44F2 /* MovieCatalogViewController.h */,
+				45940A571AAFB35000AF44F2 /* MovieCatalogViewController.h.m */,
+				45940A591AAFB35000AF44F2 /* MovieDetailViewController.h */,
+				45940A5A1AAFB35000AF44F2 /* MovieDetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		45965EB61AB9CD1A00AC7D15 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				45940A781AAFB37500AF44F2 /* AFNetworking */,
+				45940A8C1AAFB37500AF44F2 /* UIKit+AFNetworking */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		45965EB71AB9CD4600AC7D15 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				45940AAF1AAFB38500AF44F2 /* MovieDBClient.h */,
+				45940AB01AAFB38500AF44F2 /* MovieDBClient.m */,
+				45940AB11AAFB38500AF44F2 /* ILMovieDBConstants.h */,
+				45940AB21AAFB38500AF44F2 /* ILMovieDBConstants.m */,
+			);
+			name = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,7 +387,7 @@
 				45940AA91AAFB37500AF44F2 /* UIAlertView+AFNetworking.m in Sources */,
 				45940A551AAFB35000AF44F2 /* AppDelegate.m in Sources */,
 				45940AA21AAFB37500AF44F2 /* AFSecurityPolicy.m in Sources */,
-				45940A581AAFB35000AF44F2 /* MasterViewController.m in Sources */,
+				45940A581AAFB35000AF44F2 /* MovieCatalogViewController.h.m in Sources */,
 				45940A9F1AAFB37500AF44F2 /* AFHTTPRequestOperationManager.m in Sources */,
 				45940AA31AAFB37500AF44F2 /* AFURLConnectionOperation.m in Sources */,
 				453721751AAFE62300000044 /* MovieCatalog.m in Sources */,
@@ -376,7 +395,7 @@
 				45940AB41AAFB38500AF44F2 /* ILMovieDBConstants.m in Sources */,
 				45940A9E1AAFB37500AF44F2 /* AFHTTPRequestOperation.m in Sources */,
 				45940AA81AAFB37500AF44F2 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				45940AB31AAFB38500AF44F2 /* ILMovieDBClient.m in Sources */,
+				45940AB31AAFB38500AF44F2 /* MovieDBClient.m in Sources */,
 				45940A521AAFB35000AF44F2 /* main.m in Sources */,
 				45940AA41AAFB37500AF44F2 /* AFURLRequestSerialization.m in Sources */,
 				45940AA01AAFB37500AF44F2 /* AFHTTPSessionManager.m in Sources */,
@@ -384,10 +403,9 @@
 				45940AEB1AAFDDEB00AF44F2 /* Movie.m in Sources */,
 				45940AA51AAFB37500AF44F2 /* AFURLResponseSerialization.m in Sources */,
 				45940AAE1AAFB37500AF44F2 /* UIWebView+AFNetworking.m in Sources */,
-				45945A1A1AB039650081D0D4 /* ImageLoader.m in Sources */,
 				45940AA61AAFB37500AF44F2 /* AFURLSessionManager.m in Sources */,
 				45940AA71AAFB37500AF44F2 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				45940A5B1AAFB35000AF44F2 /* DetailViewController.m in Sources */,
+				45940A5B1AAFB35000AF44F2 /* MovieDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
